@@ -1,0 +1,24 @@
+{
+  "name": "react-native-nm-video",
+  "version": "0.0.1",
+  "main": "Video.js",
+  "description": "Norigin Media React Native Video module",
+  "scripts": {
+
+  },
+  "author": "NoriginMedia AS",
+  "contributors": [
+    {
+      "name": "Dmitriy Bryokhin",
+      "email": "dmitriy.bryokhin@noriginmedia.com"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "eslint": "^3.10.0",
+    "eslint-config-norigin": "git+https://github.com/NoriginMedia/eslint-config-norigin.git#v1.1.0"
+  }
+}

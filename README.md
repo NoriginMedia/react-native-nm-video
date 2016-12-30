@@ -1,1 +1,1 @@
-# react-native-nm-video
+Native module for Video component with DRM support

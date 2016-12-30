@@ -1,0 +1,27 @@
+{
+  "name": "react-native-nm-video-example",
+  "version": "0.0.1",
+  "description": "Norigin Media React Native Video module TESTING app",
+  "scripts": {
+    "start:ios": "react-native run-ios",
+    "start:android": "react-native run-android"
+  },
+  "author": "NoriginMedia AS",
+  "contributors": [
+    {
+      "name": "Dmitriy Bryokhin",
+      "email": "dmitriy.bryokhin@noriginmedia.com"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-native": "^0.38.0",
+    "react-native-nm-video": "file:../"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-norigin": "git+https://github.com/NoriginMedia/eslint-config-norigin.git#v1.1.0",
+    "react-native-cli": "^1.0.0"
+  }
+}
