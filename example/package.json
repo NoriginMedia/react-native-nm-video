@@ -4,7 +4,8 @@
   "description": "Norigin Media React Native Video module TESTING app",
   "scripts": {
     "start:ios": "react-native run-ios",
-    "start:android": "react-native run-android"
+    "start:android": "react-native run-android",
+    "reinstall": "npm uninstall react-native-nm-video && npm install react-native-nm-video"
   },
   "author": "NoriginMedia AS",
   "contributors": [
@@ -13,6 +14,10 @@
       "email": "dmitriy.bryokhin@noriginmedia.com"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NoriginMedia/react-native-nm-video.git"
+  },
   "license": "ISC",
   "dependencies": {
     "react": "^15.3.2",

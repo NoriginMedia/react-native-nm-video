@@ -13,6 +13,10 @@
       "email": "dmitriy.bryokhin@noriginmedia.com"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NoriginMedia/react-native-nm-video.git"
+  },
   "license": "ISC",
   "dependencies": {
 

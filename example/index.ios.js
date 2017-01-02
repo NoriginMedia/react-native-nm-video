@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
 		textAlign: "center",
 		color: "#333333",
 		marginBottom: 5
-	},
+	}
 });
 
 export default class NMVideoExample extends Component {
@@ -40,9 +40,7 @@ export default class NMVideoExample extends Component {
 					Press Cmd+R to reload,{"\n"}
 					Cmd+D or shake for dev menu
 				</Text>
-				<Video style={styles.container}>
-					<Text>{"My Video stuff here"}</Text>
-				</Video>
+				<Video />
 			</View>
 		);
 	}
