@@ -1,3 +1,25 @@
+buildscript {
+	repositories {
+		jcenter()
+	}
+	dependencies {
+		classpath 'com.android.tools.build:gradle:2.2.0'
+
+		// NOTE: Do not place your application dependencies here; they belong
+		// in the individual module build.gradle files
+	}
+}
+
+allprojects {
+	repositories {
+		jcenter()
+	}
+}
+
+task clean(type: Delete) {
+	delete rootProject.buildDir
+}
+
 apply plugin: 'com.android.library'
 
 android {
@@ -17,4 +39,5 @@ android {
 
 dependencies {
     compile "com.facebook.react:react-native:+"
+	compile 'com.google.android.exoplayer:exoplayer:r2.2.0'
 }
